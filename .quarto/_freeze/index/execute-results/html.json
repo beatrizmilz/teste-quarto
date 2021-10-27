@@ -1,0 +1,16 @@
+{
+  "hash": "ff68275054a72fc3794800d5db4f5295",
+  "result": {
+    "markdown": "---\ntitle: \"Testando o Quarto website\"\n---\n\nBea aqui. Testando o Quarto Website usando o RStudio.\n\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(dplyr)\nlibrary(ggplot2)\nstarwars %>% \n  ggplot() + \n  geom_point(aes(x = height, y = mass, color = sex))\n```\n\n::: {.cell-output-stderr}\n```\nWarning: Removed 28 rows containing missing values (geom_point).\n```\n:::\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n\n::: {.cell}\n\n```{.python .cell-code}\n1 + 1 # em python\n```\n\n::: {.cell-output-stdout}\n```\n2\n```\n:::\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": [],
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": null
+  }
+}

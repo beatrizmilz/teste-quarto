@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Testando o Quarto website",
+    "section": "",
+    "text": "Bea aqui. Testando o Quarto Website usando o RStudio.\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\n\nlibrary(dplyr)\nlibrary(ggplot2)\nstarwars %>% \n  ggplot() + \n  geom_point(aes(x = height, y = mass, color = sex))\n\nWarning: Removed 28 rows containing missing values (geom_point).\n\n\n\n\n\n\n1 + 1 # em python\n\n2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sobre a bia",
+    "section": "",
+    "text": "Testando essa ferramenta daora!\n\n1 + 1\n\n[1] 2\n\n\n\nlibrary(dplyr)\nlibrary(ggplot2)\nstarwars %>% \n  ggplot() + \n  geom_point(aes(x = height, y = mass, color = sex))\n\nWarning: Removed 28 rows containing missing values (geom_point).\n\n\n\n\n\n\n1 + 1 # em python\n\n2"
+  }
+]
